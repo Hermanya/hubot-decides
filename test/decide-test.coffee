@@ -45,7 +45,7 @@ describe 'Decision making', ->
       done();
     adapter.receive new TextMessage(user, 'pick from javascript/coffescript.');
 
-  it 'picks 2 out of first four letters', (done) ->
+  it 'picks 2 out of Harry Potter characters', (done) ->
     adapter.on 'send', (envelope, strings) ->
       expect(strings[0]).to.match(/Harry Potter, Hermione Granger/);
       done();
