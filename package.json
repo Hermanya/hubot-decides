@@ -1,7 +1,7 @@
 {
   "name": "hubot-decides",
   "description": "A hubot script which randomly or not makes choice decisions.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Herman Starikov <hstarikov@hstarikov-lt-dev.uxp.local>",
   "license": "MIT",
   "keywords": [
