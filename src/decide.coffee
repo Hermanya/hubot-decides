@@ -50,7 +50,7 @@ module.exports = (robot) ->
       'You would not understand',
       'I obviously did a research',
       'I performed some experimets and came up with that',
-      'You should Google that then, ifgs you don\'t trust me',
+      'You should Google that then, if you don\'t trust me',
       'My decision is final',
       'You disagree with me? but you are a mere human!'
     ]
