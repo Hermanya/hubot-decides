@@ -1,0 +1,48 @@
+{
+  "name": "hubot-decides",
+  "description": "A hubot script which randomly or not makes choice decisions.",
+  "version": "0.0.0",
+  "author": "Herman Starikov <hstarikov@hstarikov-lt-dev.uxp.local>",
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "choose",
+    "pick",
+    "decide",
+    "random",
+    "educated"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hubot-scripts/hubot-decide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hubot-scripts/hubot-decide/issues"
+  },
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "coffee-script": "~1.6",
+    "lodash": "~2.4.1",
+    "q": "^1.1.2"
+  },
+  "devDependencies": {
+    "actuator": "0.0.2",
+    "chai": "*",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
+    "hubot": "^2.11.0",
+    "hubot-mock-adapter": "^1.0.0",
+    "hubot-mock-adapter-helper": "0.0.1",
+    "matchdep": "~0.1.2",
+    "mocha": "*",
+    "request": "^2.51.0",
+    "sinon": "*",
+    "sinon-chai": "*"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "grunt test"
+  }
+}
