@@ -1,7 +1,7 @@
 {
   "name": "hubot-decides",
   "description": "A hubot script which randomly or not makes choice decisions.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Herman Starikov <hstarikov@hstarikov-lt-dev.uxp.local>",
   "license": "MIT",
   "keywords": [
@@ -15,10 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-decide.git"
+    "url": "git://github.com/hermanya/hubot-decides.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-decide/issues"
+    "url": "https://github.com/hermanya/hubot-decides/issues"
   },
   "dependencies": {
     "cheerio": "^0.18.0",
