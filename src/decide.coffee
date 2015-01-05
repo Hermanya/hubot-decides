@@ -43,11 +43,14 @@ module.exports = (robot) ->
         picks = take picks, numberOfPicks
         msg.send picks.join(', ')
 
-  robot.respond /explain|why|arguments/, (msg) ->
+  robot.respond /explain|why|arguments|reason/, (msg) ->
     msg.send msg.random [
       'They paid me moneys',
       'I do not have to explain myself',
       'You would not understand',
       'I obviously did a research',
       'I performed some experimets and came up with that',
+      'You should Google that then, if you don\'t trust me',
+      'My decision is final',
+      'You question my judgement? but you are a mere human!'
     ]
