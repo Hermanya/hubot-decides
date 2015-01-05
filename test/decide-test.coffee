@@ -25,34 +25,34 @@ describe 'Decision making', ->
     adapter.on 'send', (envelope, strings) ->
       expect(strings[0]).to.match(/confused/);
       done();
-    adapter.receive new TextMessage(user, 'choose 3 between red or blue.');
+    adapter.receive new TextMessage(user, 'hubot choose 3 between red or blue.');
 
   it 'randomly picks one amongst options', (done) ->
     adapter.on 'send', (envelope, strings) ->
       expect(strings[0]).to.match(/red|green|blue/);
       done();
-    adapter.receive new TextMessage(user, 'randomly pick from red/green/blue.');
+    adapter.receive new TextMessage(user, 'hubot randomly pick from red/green/blue.');
 
   it 'randomly picks 2 out of first four letters', (done) ->
     adapter.on 'send', (envelope, strings) ->
       expect(strings[0]).to.match(/(a|b|c|d), (a|b|c|d)/);
       done();
-    adapter.receive new TextMessage(user, 'randomly select 2 out of a,  b or c, d..');
+    adapter.receive new TextMessage(user, 'hubot randomly select 2 out of a,  b or c, d..');
 
   it 'educatedly picks one amongst options', (done) ->
     adapter.on 'send', (envelope, strings) ->
       expect(strings[0]).to.match(/javascript/);
       done();
-    adapter.receive new TextMessage(user, 'pick from javascript/coffescript.');
+    adapter.receive new TextMessage(user, 'hubot pick from javascript/coffescript.');
 
   it 'picks 2 out of Harry Potter characters', (done) ->
     adapter.on 'send', (envelope, strings) ->
       expect(strings[0]).to.match(/Harry Potter, Hermione Granger/);
       done();
-    adapter.receive new TextMessage(user, 'select 2 out of Harry Potter, Neville Longbottom, Hermione Granger, Ginny Weasley');
+    adapter.receive new TextMessage(user, 'hubot select 2 out of Harry Potter, Neville Longbottom, Hermione Granger, Ginny Weasley');
 
   it 'explains why', (done) ->
     adapter.on 'send', (envelope, strings) ->
       expect(strings[0]).to.be.ok;
       done();
-    adapter.receive new TextMessage(user, 'explain why');
+    adapter.receive new TextMessage(user, 'hubot explain why');
