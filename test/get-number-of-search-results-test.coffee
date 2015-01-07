@@ -4,7 +4,7 @@ getNumberOfSearchResults = require '../src/get-number-of-search-results.coffee'
 describe 'Getting number of search results', ->
   @timeout 30000
 
-  it 'gets a number of search results', (done) ->
+  xit 'gets a number of search results', (done) ->
     getNumberOfSearchResults('apple').then (numberOfResults)->
       expect(numberOfResults).to.be.ok();
       done()
