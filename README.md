@@ -19,6 +19,6 @@ Then add **hubot-decides** to your `external-scripts.json`:
 ## Sample Interaction
 
 ```
-user1>> hubot choose between red or blue
+user1>> hubot choose between red and blue
 hubot>> blue
 ```
