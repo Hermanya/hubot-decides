@@ -1,7 +1,7 @@
 {
   "name": "hubot-decides",
   "description": "A hubot script which randomly or not makes choice decisions.",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "Herman Starikov <hstarikov@hstarikov-lt-dev.uxp.local>",
   "license": "MIT",
   "keywords": [
@@ -32,7 +32,7 @@
     "grunt-mocha-test": "~0.7.0",
     "grunt-release": "~0.6.0",
     "matchdep": "~0.1.2",
-    "mock-hubot":"*",
+    "mock-hubot": "*",
     "mocha": "*",
     "request": "^2.51.0"
   },
