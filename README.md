@@ -2,8 +2,6 @@
 
 > A hubot script which randomly or not makes choice decisions.
 
-See [`test/decide-test.coffee`](test/decide-test.coffee) for usage exapmles.
-
 ## Installation
 
 In hubot project repo, run:
@@ -18,7 +16,6 @@ Then add **hubot-decides** to your `external-scripts.json`:
 
 ## Sample Interaction
 
-```
-user1>> hubot choose between red or blue
-hubot>> blue
-```
+![me and hubot](Screenshot.png)
+
+See [test/decide-test.coffee](test/decide-test.coffee) for other usage examples.
