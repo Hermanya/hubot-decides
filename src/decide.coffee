@@ -1,5 +1,6 @@
 # Commands:
-#   hubot (suggest|choose|pick|select) (from|amongst|between|among|amongst|out of) <element1> <element2> ... - Let hubot randomly choose one of the elements in your list
+#   hubot (suggest|choose|pick|select) (from|amongst|between|among|amongst|out of) <element1>, <element2> ... - Let hubot choose one of the elements in your list based on number of hits in google
+#   hubot randomly (suggest|choose|pick|select) (from|amongst|between|among|amongst|out of) <element1> or <element2> ... - Let hubot randomly choose one of the elements in your list
 #   hubot (explain|why|arguments|reason) - Ask hubot to explain the choice
 
 getNumberOfSearchResults = require './get-number-of-search-results.coffee'
