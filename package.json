@@ -21,18 +21,18 @@
     "url": "https://github.com/hermanya/hubot-decides/issues"
   },
   "dependencies": {
-    "cheerio": "^0.18.0",
-    "coffee-script": "~1.6",
-    "lodash": "~2.4.1",
+    "cheerio": "^0.22.0",
+    "coffee-script": "~1.12.7",
+    "lodash": "~4.17.4",
     "request": "^2.51.0",
     "q": "^1.1.2"
   },
   "devDependencies": {
     "chai": "*",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-mocha-test": "~0.7.0",
-    "grunt-release": "~0.6.0",
-    "matchdep": "~0.1.2",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-mocha-test": "~0.13.3",
+    "grunt-release": "~0.14.0",
+    "matchdep": "~2.0.0",
     "mock-hubot": "*",
     "mocha": "*"
   },
