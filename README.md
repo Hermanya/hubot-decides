@@ -1,5 +1,7 @@
 # hubot-decides
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Hermanya/hubot-decides.svg)](https://greenkeeper.io/)
+
 > A hubot script which randomly or not makes choice decisions.
 
 ## Installation
