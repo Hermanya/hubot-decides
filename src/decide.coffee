@@ -51,8 +51,8 @@ module.exports = (robot) ->
       'I do not have to explain myself',
       'You would not understand',
       'I obviously did a research',
-      'I performed some experimets and came up with that',
+      'I performed some experiments and came up with that',
       'You should Google that then, if you don\'t trust me',
       'My decision is final',
-      'You question my judgement? but you are a mere human!'
+      'You question my judgement? But you are a mere human!'
     ]
